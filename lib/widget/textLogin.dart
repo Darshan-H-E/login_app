@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class TextLogin extends StatefulWidget {
   @override
@@ -13,7 +14,7 @@ class _TextLoginState extends State<TextLogin> {
       child: Container(
         //color: Colors.green,
         height: 200,
-        width: 200,
+        width: 300,
         child: Column(
           children: <Widget>[
             Container(
@@ -21,9 +22,9 @@ class _TextLoginState extends State<TextLogin> {
             ),
             Center(
               child: Text(
-                'Anime App',
-                style: TextStyle(
-                    fontSize: 35,
+                'weebify',
+                style: GoogleFonts.slackey(
+                    fontSize: 50,
                     color: Colors.white,
                     fontWeight: FontWeight.bold),
               ),

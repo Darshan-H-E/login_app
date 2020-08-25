@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class VerticalText extends StatefulWidget {
+  VerticalText(this.data);
+  final String data;
   @override
   _VerticalTextState createState() => _VerticalTextState();
 }
@@ -13,11 +16,13 @@ class _VerticalTextState extends State<VerticalText> {
       child: RotatedBox(
           quarterTurns: -1,
           child: Text(
-            'Sing in',
-            style: TextStyle(
+           widget.data,
+            style: GoogleFonts.lato(
               color: Colors.green[500],
-              fontSize: 38,
-              fontWeight: FontWeight.w900,
+              // color: Color(0xff141d26),
+              fontSize: 50,
+              letterSpacing: -3,
+              fontWeight: FontWeight.w300,
             ),
           )),
     );

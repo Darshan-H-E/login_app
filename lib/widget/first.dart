@@ -14,13 +14,13 @@ class _FirstTimeState extends State<FirstTime> {
       child: Container(
         alignment: Alignment.topRight,
         //color: Colors.red,
-        height: 20,
+        // height: 20,
         child: Row(
           children: <Widget>[
             Text(
               'Your first time?',
               style: TextStyle(
-                fontSize: 12,
+                fontSize: 16,
                 color: Colors.white70,
               ),
             ),
@@ -31,10 +31,11 @@ class _FirstTimeState extends State<FirstTime> {
                     MaterialPageRoute(builder: (context) => NewUser()));
               },
               child: Text(
-                'Sing up',
+                'Sign up',
                 style: TextStyle(
-                  fontSize: 12,
-                  color: Colors.white,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.green[500],
                 ),
                 textAlign: TextAlign.right,
               ),

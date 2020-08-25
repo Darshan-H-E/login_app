@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "245278101364",
+    "firebase_url": "https://weebify-f26e5.firebaseio.com",
+    "project_id": "weebify-f26e5",
+    "storage_bucket": "weebify-f26e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245278101364:android:7f0d3e29f845fefb6fe621",
+        "android_client_info": {
+          "package_name": "com.example.login_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245278101364-s91fnntlg9ltcoaok0p8tlkeas8utp5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login_app",
+            "certificate_hash": "31cb877632cfdff3cf7d2a6fad2c757a44f38b9d"
+          }
+        },
+        {
+          "client_id": "245278101364-nakj5l7333e95vhvnnn3sm57e8tt60pc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvD2c7vBpUmAlFIoB7645NaZvywQ5Mdss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245278101364-nakj5l7333e95vhvnnn3sm57e8tt60pc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

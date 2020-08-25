@@ -9,13 +9,13 @@ class UserOld extends StatelessWidget {
       child: Container(
         alignment: Alignment.topRight,
         //color: Colors.red,
-        height: 20,
+        // height: 20,
         child: Row(
           children: <Widget>[
             Text(
               'Have we met before?',
               style: TextStyle(
-                fontSize: 12,
+                fontSize: 16,
                 color: Colors.white70,
               ),
             ),
@@ -26,10 +26,11 @@ class UserOld extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => LoginPage()));
               },
               child: Text(
-                'Sing in',
+                'Sign in',
                 style: TextStyle(
-                  fontSize: 12,
-                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                  color: Colors.green[500],
                 ),
                 textAlign: TextAlign.right,
               ),
